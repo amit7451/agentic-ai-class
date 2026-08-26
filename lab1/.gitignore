@@ -1,0 +1,32 @@
+# Environment variables (contains private API keys)
+.env
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local Vector Store
+chroma_db/
+
+# PDFs (optional raw data)
+data/*.pdf
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
