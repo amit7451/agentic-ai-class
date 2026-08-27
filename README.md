@@ -48,3 +48,4 @@ pip install -r requirements.txt
 cp .env.example .env    # Add your OPENROUTER_API_KEY
 python main.py
 ```
+### 2. Lab 3 (Upcoming) ....
