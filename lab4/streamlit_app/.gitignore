@@ -1,0 +1,14 @@
+# Environment & Secrets
+.env
+.streamlit/secrets.toml
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# Audio outputs & temporary files
+*.mp3
+*.wav
+temp/
