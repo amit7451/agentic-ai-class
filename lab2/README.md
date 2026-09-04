@@ -9,22 +9,15 @@ End-to-end local Retrieval-Augmented Generation (RAG) using LangChain, FAISS vec
 
 ## Setup
 
+Activate the shared virtual environment created at the repository root (`agentic-ai-class/.venv`):
+
 ```bash
-# 1. Create and activate virtual environment
-python -m venv .venv
-
-# Windows (Command Prompt):
-.venv\Scripts\activate
-
-# Windows (PowerShell):
-.venv\Scripts\Activate.ps1
-
-# Linux/macOS:
-source .venv/bin/activate
-
-# 2. Install dependencies
-pip install -r requirements.txt
+# From lab2 directory:
+# Windows (CMD): ..\.venv\Scripts\activate
+# Windows (PowerShell): ..\.venv\Scripts\Activate.ps1
+# Linux/macOS: source ../.venv/bin/activate
 ```
+
 
 ## Configuration
 

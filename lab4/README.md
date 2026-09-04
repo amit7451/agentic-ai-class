@@ -60,30 +60,15 @@ The AI Agent listens to patient inquiries, searches the National Library of Medi
 
 ## Setup Instructions
 
-### 1. Create and Activate Virtual Environment
+Activate the shared virtual environment created at the repository root (`agentic-ai-class/.venv`):
 
 ```bash
-# Navigate to the lab4 directory:
-cd lab4
-
-# Create virtual environment:
-py -m venv .venv
-
-# Windows (PowerShell):
-.venv\Scripts\Activate.ps1
-
-# Windows (Command Prompt):
-.venv\Scripts\activate.bat
-
-# Linux/macOS:
-source .venv/bin/activate
+# From lab4 directory:
+# Windows (CMD): ..\.venv\Scripts\activate
+# Windows (PowerShell): ..\.venv\Scripts\Activate.ps1
+# Linux/macOS: source ../.venv/bin/activate
 ```
 
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
 
 ### 3. Configure Environment Variables
 

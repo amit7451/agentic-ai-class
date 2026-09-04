@@ -18,15 +18,15 @@ End-to-end local RAG project:
 
 ## Setup
 
-```bash
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# Linux/macOS:
-# source .venv/bin/activate
+Activate the shared virtual environment created at the repository root (`agentic-ai-class/.venv`):
 
-pip install -r requirements.txt
+```bash
+# From lab1 directory:
+# Windows (CMD): ..\.venv\Scripts\activate
+# Windows (PowerShell): ..\.venv\Scripts\Activate.ps1
+# Linux/macOS: source ../.venv/bin/activate
 ```
+
 
 Create `.env`:
 

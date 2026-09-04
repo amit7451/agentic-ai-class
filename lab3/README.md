@@ -29,27 +29,15 @@ The agent provides the following simulated enterprise tools:
 
 ## Setup Instructions
 
-### 1. Create and Activate Virtual Environment
+Activate the shared virtual environment created at the repository root (`agentic-ai-class/.venv`):
 
 ```bash
-# In the lab3 directory:
-python -m venv .venv
-
-# Windows (Command Prompt):
-.venv\Scripts\activate
-
-# Windows (PowerShell):
-.venv\Scripts\Activate.ps1
-
-# Linux/macOS:
-source .venv/bin/activate
+# From lab3 directory:
+# Windows (CMD): ..\.venv\Scripts\activate
+# Windows (PowerShell): ..\.venv\Scripts\Activate.ps1
+# Linux/macOS: source ../.venv/bin/activate
 ```
 
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
 
 ### 3. Configure Environment Variables
 

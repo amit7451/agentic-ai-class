@@ -42,21 +42,13 @@ lab4/streamlit_app/
 cd lab4/streamlit_app
 ```
 
-### 2. Create and activate a virtual environment
+### 2. Activate virtual environment
 ```bash
-# Windows (PowerShell)
-py -m venv .venv
-.venv\Scripts\Activate.ps1
-
-# Linux / macOS
-python3 -m venv .venv
-source .venv/bin/activate
+# Activate the shared root virtual environment:
+# Windows (PowerShell): ..\..\.venv\Scripts\Activate.ps1
+# Linux / macOS: source ../../.venv/bin/activate
 ```
 
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
 
 ### 4. Configure API Key
 Create a `.env` file in `lab4/streamlit_app/`:
