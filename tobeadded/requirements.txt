@@ -1,6 +1,0 @@
-langchain
-langgraph
-langchain-mcp-adapters
-langchain-openrouter
-mcp
-python-dotenv
