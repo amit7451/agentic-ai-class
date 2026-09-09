@@ -1,4 +1,4 @@
-# Centralized Dependencies for Agentic AI Class (Lab 1 - Lab 4)
+# Centralized Dependencies for Agentic AI Class (Lab 1 - Lab 5)
 
 # Core LLM & Agent Frameworks
 google-genai>=1.30.0
@@ -27,6 +27,13 @@ edge-tts>=6.1.0
 faster-whisper>=1.0.0
 sounddevice>=0.4.6
 scipy>=1.11.0
+
+# Model Context Protocol (Lab 5)
+mcp>=2.2.0
+fastmcp>=4.0.0
+langchain-mcp-adapters>=0.3.0
+langgraph>=1.2.0
+httpx>=0.28.0
 
 # Web Applications & Interactive Environments
 streamlit>=1.35.0

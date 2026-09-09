@@ -1,0 +1,9 @@
+# Dependencies for Lab 5: Model Context Protocol (MCP) Assistant
+langchain>=1.4.0
+langgraph>=1.2.0
+langchain-mcp-adapters>=0.3.0
+langchain-openrouter>=0.2.0
+mcp>=2.2.0
+fastmcp>=4.0.0
+python-dotenv>=1.0.0
+httpx>=0.28.0
